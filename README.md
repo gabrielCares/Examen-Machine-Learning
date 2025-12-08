@@ -21,8 +21,10 @@ El sistema utiliza una arquitectura modular basada en la metodología **CRISP-DM
  # 👣 Paso a Paso: Metodología Aplicada
 
 1. **Para ejecutar este archivo descarguelo y subalo a google colab.**
-2. **inicie las celdas de arriba a abajo para generar el hambiente de trabajo.**
-3. **El desarrollo del proyecto siguió 5 fases secuenciales lógicas (CRISP-DM):**
+2. **Inicie las celdas de arriba a abajo para generar el hambiente de trabajo.**
+3. **Una vez que todas las celdas se ejecuten, en la carpeta de (`reports`) encontrara todos los dashboard**
+4. **En las ultimas celdas encontrar el link de la api el cual en tiempo real podemos solicitar un (`get`) o (`post`) y en base a los datos del cliente deternima si es riesgoso o no **
+ # El desarrollo del proyecto siguió 5 fases secuenciales lógicas (CRISP-DM):
 
 1.  **Entendimiento de Datos:** Se exploraron las tablas `application`, `bureau` e `installments`, detectando desbalance de clases.
 2.  **Preparación de Datos:** Se creó `feature_engineering.py` para generar variables agregadas (ej. promedios de atrasos) y unir las tablas.
