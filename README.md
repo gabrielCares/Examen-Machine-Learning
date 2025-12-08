@@ -20,7 +20,9 @@ El sistema utiliza una arquitectura modular basada en la metodología **CRISP-DM
 
  # 👣 Paso a Paso: Metodología Aplicada
 
-El desarrollo del proyecto siguió 5 fases secuenciales lógicas (CRISP-DM):
+1. **Para ejecutar este archivo descarguelo y subalo a google colab.**
+2. **inicie las celdas de arriba a abajo para generar el hambiente de trabajo.**
+3. **El desarrollo del proyecto siguió 5 fases secuenciales lógicas (CRISP-DM):**
 
 1.  **Entendimiento de Datos:** Se exploraron las tablas `application`, `bureau` e `installments`, detectando desbalance de clases.
 2.  **Preparación de Datos:** Se creó `feature_engineering.py` para generar variables agregadas (ej. promedios de atrasos) y unir las tablas.
